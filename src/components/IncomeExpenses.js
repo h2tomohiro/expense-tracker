@@ -1,5 +1,7 @@
 import React, { useContext } from 'react';
 import { GlobalContext } from '../context/GlobalState';
+// import DatePicker from "react-datepicker"
+// import "react-datepicker/dist/react-datepicker.css"
 
 function moneyFormatter(num) {
   let p = num.toFixed(2).split('.');
@@ -15,6 +17,7 @@ function moneyFormatter(num) {
     p[1]
   );
 }
+
 
 export const IncomeExpenses = () => {
   const { transactions } = useContext(GlobalContext);
