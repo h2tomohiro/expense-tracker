@@ -1,3 +1,12 @@
+# What is your project about
+# What are you using this project for / What is the purpose of this project
+# Why did you decide to make this project?
+# What reference did you use?
+# What libraries/technology/ api you used
+# What did you learn? What was the most challenging part?
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
