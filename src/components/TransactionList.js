@@ -8,7 +8,7 @@ export const TransactionList = () => {
     <>
       <h3>History</h3>
       <ul className="list">
-        { transactions.map(transaction => (<li className='minus'>
+        {transactions.map(transaction => (<li className='minus'>
           {transaction.text} <span>-$400</span><button class="delete-btn">x</button>
         </li>))}
       </ul>
