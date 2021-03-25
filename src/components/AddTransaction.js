@@ -1,7 +1,5 @@
 import React, { useState, useContext } from 'react'
 import { GlobalContext } from '../context/GlobalState';
-// import DatePicker from "react-datepicker"
-// import "react-datepicker/dist/react-datepicker.css"
 
 export const AddTransaction = () => {
   const [date, setStartDate] = useState('')
@@ -9,10 +7,6 @@ export const AddTransaction = () => {
   const [amount, setAmount] = useState(0);
 
   const { addTransaction } = useContext(GlobalContext);
-
-  // const handleChange = (date) => {
-  //   setStartDate(date)
-  // }
 
   const onSubmit = e => {
     e.preventDefault();
