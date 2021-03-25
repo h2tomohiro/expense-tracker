@@ -1,47 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-:root {
-  --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+.cont-wrap {
+  padding: 0 0 4rem;
 }
 
-* {
-  box-sizing: border-box;
+/* ------HEADER---------- */
+
+#header-wrap {
+  background-color: #263D42;
+  color: white;
 }
 
-body {
-  background-color: #f7f7f7;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-}
-
-.container {
-  margin: 30px auto;
-  width: 350px;
-}
-
-h1 {
+#header-HL {
   letter-spacing: 1px;
+  font-size: 2rem;
+  margin: 0;
+  padding: 20px 0 1rem;
+}
+
+.header-subHl {
+  font-size: 1.3rem; 
+}
+
+/* ------BALANCE---------- */
+
+.hl3 {
+  padding: 0.8rem 0 0.2rem;
   margin: 0;
 }
 
-h3 {
-  border-bottom: 1px solid #bbb;
-  padding-bottom: 10px;
-  margin: 40px 0 10px;
-}
-
-h4 {
+.hl4 {
   margin: 0;
+  padding: 0.5rem 0 0.8rem;
   text-transform: uppercase;
 }
 
+/* ---------INCOME-EXPENSE---------- */
 .inc-exp-container {
-  background-color: #fff;
+  background-color: #F3F9F4;
   box-shadow: var(--box-shadow);
   padding: 20px;
   display: flex;
@@ -72,28 +68,15 @@ h4 {
   color: #c0392b;
 }
 
-label {
-  display: inline-block;
-  margin: 10px 0;
-}
+/* ---------HISTORY-------- */
 
-input[type='text'],
-input[type='number'] {
-  border: 1px solid #dedede;
-  border-radius: 2px;
-  display: block;
-  font-size: 16px;
-  padding: 10px;
-  width: 100%;
-}
-
-.btn {
+#btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #263D42;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
-  display: block;
+  
   font-size: 16px;
   margin: 10px 0 30px;
   padding: 10px;
@@ -112,9 +95,9 @@ input[type='number'] {
 }
 
 .list li {
-  background-color: #fff;
+  background-color: #F3F9F4;
   box-shadow: var(--box-shadow);
-  color: #333;
+  color: #263D42;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -150,8 +133,62 @@ input[type='number'] {
   opacity: 1;
 }
 
-@media (max-width: 320px) {
-  .container {
-    width: 300px;
+/* ------FORM---------- */
+#input1,
+#input2,
+#input3 {
+  background-color: #F3F9F4;
+  border: 0.06rem solid #263D42;
+  color: #263D42;
+}
+
+#label1,
+#label2,
+#label3 {
+  color: #263D42;
+}
+
+
+@media (min-width: 769px) {
+
+
+   #root {
+    max-width: 650px;
+    width: 80vw;
+    height: 80vw;
+    margin: 10vh auto;
+  }
+  
+  #header-HL {
+    letter-spacing: 1px;
+    font-size: 3rem;
+    margin: 0;
+    padding: 2rem 0 1rem;
+  }
+  
+  .header-subHl {
+    font-size: 2rem; 
+    padding: 0 0 2rem;
+  }
+
+  .hl3 {
+    font-size: 2.2rem;
+    padding: 1.5rem 0 1rem;
+    margin: 0;
+  }
+  
+  .hl4 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0.5rem 0 1rem;
+    text-transform: uppercase;
+  }
+  
+  .inc-exp-hl {
+    font-size: 2rem; 
+  }
+  .money {
+    font-size: 2rem;
+    font-weight: 500;
   }
 }

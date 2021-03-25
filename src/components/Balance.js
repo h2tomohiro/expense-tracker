@@ -7,9 +7,9 @@ export const Balance = () => {
   const amounts = transactions.map(transaction => transaction.amount);
   const total = amounts.reduce((acc, item) => (acc += item), 0).toFixed(2);
   return (
-    <>
-      <h4>Your balance</h4>
-      <h1>${total}</h1>
-    </>
+    <div className="col-12">
+      <h3 className="hl3">Your balance</h3>
+      <h4 className="hl4">${total}</h4>
+    </div>
   )
 }

@@ -8,18 +8,23 @@ import { AddTransaction } from './components/AddTransaction';
 import { GlobalProvider } from './context/GlobalState';
 // any change to push it to githubß
 import './App.css';
+// style
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <GlobalProvider>
+      <div className="container-lg" id="app-wrapper">
       <Header />
-      <div className='container'>
+      <div className="cont-wrap">
         <Balance />
         <IncomeExpenses />
         <TransactionList />
         <AddTransaction />
       </div>
-    </GlobalProvider >
+      </div>
+    </GlobalProvider >  
   );
 }
 
