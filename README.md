@@ -7,7 +7,7 @@ https://expense-tracker-h2tomohiro.vercel.app/
 
 # What reference did you use?
 - Mainly we used Youtube, using articles on Google
-https://www.youtube.com/watch?v=XuFDcZABiDQ&t=336s
+  - https://www.youtube.com/watch?v=XuFDcZABiDQ&t=336s
 
 # What libraries/technology/ api you used
 - useState
@@ -16,4 +16,3 @@ https://www.youtube.com/watch?v=XuFDcZABiDQ&t=336s
 
 # What did you learn? What was the most challenging part?
 - Understanding Context API (review)
-- 
