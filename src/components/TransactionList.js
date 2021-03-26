@@ -7,11 +7,11 @@ export const TransactionList = () => {
   const { transactions } = useContext(GlobalContext);
 
   return (
-    <>
-      <h3>Expense History</h3>
+    <div className="col-12">
+      <h3>History</h3>
       <ul className="list">
         {transactions.map(transaction => (<Transaction key={transactions.id} transaction={transaction} />))}
       </ul>
-    </>
+    </div>
   )
 }
