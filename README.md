@@ -27,3 +27,5 @@ In the beginning, we wanted to create a weather app. However, as soon as we came
 
 # What did you learn? What was the most challenging part?
 - Understanding Context API (review)
+
+- The most challenging part for me was to understand state's management, style the app and as always the cooperation on github. - Misha
