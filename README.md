@@ -17,10 +17,13 @@ In the beginning, we wanted to create a weather app. However, as soon as we came
 - Bootstrap
 
 # What reference did you use?
-- Mainly we used Youtube and articles on Google
+- Mainly we used Youtube and official resources for React, Reactstrap and Bootstrap and some articles on Google
   - https://www.youtube.com/watch?v=XuFDcZABiDQ&t=336s
   - https://www.youtube.com/watch?v=XHPL-rX9m-Q&t=559s
   - https://www.youtube.com/watch?v=8pKjULHzs0s&t=640s
+  - https://reactjs.org/
+  - https://reactstrap.github.io/
+  - https://getbootstrap.com/
 
 # What did you learn? What was the most challenging part?
 - Understanding Context API (review)
